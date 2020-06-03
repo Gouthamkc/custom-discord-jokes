@@ -28,10 +28,4 @@ var ln = "Chan";
 customDiscordJokes.getCustomJoke (fn, ln, function(joke) {
     //=> console.log(joke);
 });
-
-// To get a random Joke of the Day (Categories allowed: "blonde", "knock-knock", "animal", "jod")
-var category = "blonde";
-giveMeAJoke.getRandomJokeOfTheDay (category, function(joke) {
-    //=> console.log(joke);
-});
 ```
